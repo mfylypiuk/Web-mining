@@ -49,7 +49,7 @@ namespace lab2_email_sender_console
             Console.WriteLine("Emails sending...");
             mailHandler.LoadEmailsFromCsvFile(@"input\emails.csv");
             mailHandler.GenerateMailRepository();
-            mailHandler.StartSendingProcess(true);
+            mailHandler.StartSendingProcess(false);
             Console.WriteLine("Okay, I`m done!");
         }
     }
