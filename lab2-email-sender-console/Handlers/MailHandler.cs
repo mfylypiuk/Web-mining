@@ -36,7 +36,7 @@ namespace lab2_email_sender_console.Handlers
             }
         }
 
-        public void SendAll()
+        public void SendAll(bool send = false)
         {
             if (string.IsNullOrEmpty(Subject) || string.IsNullOrEmpty(Body))
             {
@@ -51,7 +51,10 @@ namespace lab2_email_sender_console.Handlers
                 mailMessage.Subject = Subject;
                 mailMessage.Body = Body;
 
-                smtpHandler.SendMail(mailMessage);
+                if (send)
+                {
+                    smtpHandler.SendMail(mailMessage);
+                }
             }
         }
     }

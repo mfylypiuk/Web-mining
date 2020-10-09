@@ -40,7 +40,7 @@ namespace lab2_email_sender_console
             }
 
             Console.WriteLine("Emails sending...");
-            //mailHandler.SendAll();
+            mailHandler.SendAll();
             Console.WriteLine("Okay, I`m done!");
         }
     }

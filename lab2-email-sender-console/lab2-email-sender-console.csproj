@@ -6,8 +6,4 @@
     <RootNamespace>lab2_email_sender_console</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

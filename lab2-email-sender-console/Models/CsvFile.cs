@@ -6,7 +6,7 @@ using System.Text;
 
 namespace lab2_email_sender_console.Models
 {
-    class CsvFile
+    public class CsvFile
     {
         public string Path { get; set; }
         public char Delimiter { get; set; }

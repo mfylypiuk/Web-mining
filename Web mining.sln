@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab1-email-parser", "lab1-e
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab1-gmail-handler", "lab1-gmail-handler\lab1-gmail-handler.csproj", "{385CE06D-27F6-49C9-9EE8-302A0493FDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2-email-sender-console", "lab2-email-sender-console\lab2-email-sender-console.csproj", "{834B20AC-D023-45C9-BA39-16EA66786687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab2-email-sender-console", "lab2-email-sender-console\lab2-email-sender-console.csproj", "{834B20AC-D023-45C9-BA39-16EA66786687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2-html-mailto-parser", "lab2-html-mailto-parser\lab2-html-mailto-parser.csproj", "{E0C756D8-BBA0-4DB4-8B11-C969BEE01AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{834B20AC-D023-45C9-BA39-16EA66786687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834B20AC-D023-45C9-BA39-16EA66786687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{834B20AC-D023-45C9-BA39-16EA66786687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C756D8-BBA0-4DB4-8B11-C969BEE01AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C756D8-BBA0-4DB4-8B11-C969BEE01AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C756D8-BBA0-4DB4-8B11-C969BEE01AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C756D8-BBA0-4DB4-8B11-C969BEE01AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
